@@ -1,0 +1,18 @@
+body {
+    background-image: url('/imgs/headerphoto.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header ul li {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    margin: -1em 8em 0em -5em;
+    color: inherit;
+}
+
+.top-content {
+    margin: 12em 0em 7em 45em;
+    padding: 6em 0em 8em 0em;
+}
