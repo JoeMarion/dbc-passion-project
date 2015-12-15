@@ -4,15 +4,52 @@ body {
     background-attachment: fixed;
 }
 
+.header {
+    margin: 2em 0em 0em 3em;
+    color: whitesmoke;
+}
+
+.header ul {
+    margin: -1em 0em 0em 0em;
+}
+
 .header ul li {
     display: inline;
     list-style-type: none;
     float: right;
     margin: -1em 8em 0em -5em;
     color: inherit;
+ text-decoration: none;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .top-content {
-    margin: 12em 0em 7em 45em;
+    margin: 6em 0em 7em 45em;
     padding: 6em 0em 8em 0em;
+}
+
+.top-content span {
+    border-radius: 25px;
+    background-color: #202036;
+    margin: 0em 20em 0em -14em;
+    padding: 0.4em 1.1em 0.4em 1em;
+    border: none;
+    color: whitesmoke;
+}
+
+.top-content span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.about {
+    background-color: #202036;
+    padding: .5em 0em 13em 0em;
+    color: whitesmoke;
+    text-align: center;
 }
