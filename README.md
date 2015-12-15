@@ -1,8 +1,4 @@
-# crud-template
-Goal: Create a RESTful sinatra skeleton with a functional User Creation and Sessions
+## Cabal
 
-2 Branches - 
+Cabal is a collaborated on by:
 
-AJAX - Forms are loaded in as Partials, and Javascript handles placing the partials on the page. 
-
-NoAJAX - Each form is a separate page.
