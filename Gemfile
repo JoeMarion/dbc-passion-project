@@ -17,6 +17,7 @@ gem 'bcrypt'
 gem 'rake'
 
 gem 'shotgun'
+gem 'sinatra-subdomain'
 
 group :test do
   gem 'faker'

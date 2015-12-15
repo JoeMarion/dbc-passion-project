@@ -18,6 +18,7 @@ require 'logger'
 require 'rack-flash'
 require 'bcrypt'
 require 'sinatra'
+require 'sinatra/subdomain'
 require "sinatra/reloader" if development?
 
 require 'erb'
