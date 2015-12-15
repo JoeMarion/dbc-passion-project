@@ -1,7 +1,10 @@
 class User < ActiveRecord::Base
 	validates :username, :email, :password_hash, presence: true
 	validates :email, uniqueness: true
-	has_many :posts, :announcements, :comments, :url_feeds
+	has_many :posts
+	has_many :announcements
+	has_many :comments
+	has_many :url_feeds
 	has_many :networks, through: :networks_users
 
 	include BCrypt

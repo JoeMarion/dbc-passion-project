@@ -3,6 +3,7 @@ class CreateUsers < ActiveRecord::Migration
   	create_table :users do |t|
       t.boolean :admin, null: false, default: false
       t.integer :network_id
+      t.string :username
       t.string :email, null: false
       t.string :fname, null: false
       t.string :lname, null: false
