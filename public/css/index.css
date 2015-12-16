@@ -28,7 +28,7 @@ body {
 }
 
 .top-content {
-    margin: 7% 0% 10% 55%;
+    margin: 3% 0% 10% 55%;
     padding: 6em 0em 0em 0em;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .about {
     background-color: #202036;
-    padding: .5em 0em 16% 0em;
+    padding: .5em 0em 20% 0em;
     color: whitesmoke;
     text-align: center;
     margin-top: 10%;
@@ -57,7 +57,7 @@ body {
 }
 
 .loginbox {
-    padding: 2em 0em 2em 0em;
+    padding: 2em 0em 4em 0em;
     background-color: #494949;
     text-align: center;
     width: 27%;
