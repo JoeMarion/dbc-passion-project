@@ -6,13 +6,13 @@ $(document).ready(function() {
 function login() {
 	$('.loginbox').hide();
 	$('.login').click(function() {
-	$('.loginbox').toggle( 200 );
+		$('.loginbox').toggle( 200 );
 	});
 };
 
 function createGroup() {
 	$('.createbox').hide();
 	$('.create').click(function() {
-	$('.createbox').toggle( 200 );
+		$('.createbox').toggle( 200 );
 	});
 };
