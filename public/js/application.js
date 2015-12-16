@@ -6,13 +6,20 @@ $(document).ready(function() {
 function login() {
 	$('.loginbox').hide();
 	$('.login').click(function() {
-		$('.loginbox').toggle( 200 );
+		$('.loginbox').slideToggle(200);
+		$('.createbox').hide();
 	});
 };
 
 function createGroup() {
 	$('.createbox').hide();
 	$('.create').click(function() {
-		$('.createbox').toggle( 200 );
+		$('.createbox').slideToggle(200);
+		$('.loginbox').hide();
+	});
+	$('.signup').click(function() {
+		$('.createbox').slideToggle(200);
+		$('.loginbox').hide();
 	});
 };
+
